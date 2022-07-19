@@ -114,14 +114,13 @@ const getSolanaPrice = async () => {
   }
 }
 const hexToDecimal = hex => parseInt(hex, 16);
-
+//3483267860424498572784476647572533100336474322486193658764786385985433822416
 const getReputationScore = async () => {
   try {
     const res = await starknet.provider.callContract(
       {
         contractAddress: USER_CONTRACT_ADDRESS,
         entrypoint: 'get_reputation_score',
-        calldata: ["3483267860424498572784476647572533100336474322486193658764786385985433822416"]
       }
     )
     savedReputation.value = Number(`${res.result[0]}`)
@@ -162,7 +161,7 @@ const connectWallet = async () => {
 
 <template>
   <li type="button" @click="connectWallet" v-if="!walletConnected"><a><i class="far fa-edit"></i>  Connect wallet</a></li>
-  <div class="" v-else>
+  <div class="after_load" v-else>
     Wallet connected
     <ul>
       <li> eth price : {{ethPrice}} </li>
@@ -178,3 +177,12 @@ const connectWallet = async () => {
 
   </div>
 </template>
+
+
+<style>
+.after_load {
+  height: 500px;
+  background: #444;
+}
+
+</style>

@@ -37,16 +37,21 @@
       </div>
   </section>
   <!-- trending-gameplay-end -->
+<FooterView />
 
 </template>
 
 <script>
 import QuestCardComp from '../components/QuestCardComp.vue'
+import FooterView from './FooterView.vue'
+
+
 import '../components/Numbers.vue'
 export default {
   name: 'Quests',
   components: {
-    QuestCardComp
+    QuestCardComp,
+    FooterView
   }
 }
 

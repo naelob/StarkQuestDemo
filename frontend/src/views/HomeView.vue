@@ -7,9 +7,9 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-8">
                             <div class="banner-content">
-                                <h6 class="sub-title wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.8s">best of 2021</h6>
-                                <h2 class="title-one wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1.8s">gaming</h2>
-                                <h3 class="title-two wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1.8s">world class <span>news</span></h3>
+                                <h6 class="sub-title wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.8s">best of 2022</h6>
+                                <h2 class="title-one wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1.8s">GG quest</h2>
+                                <h3 class="title-two wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1.8s">Your gaming <span>safeheaven</span></h3>
                                 <div class="banner-meta wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1.8s">
                                     <ul>
                                         <li class="quality">
