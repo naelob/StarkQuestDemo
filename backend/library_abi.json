@@ -1,0 +1,53 @@
+[
+    {
+        "members": [
+            {
+                "name": "low",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "high",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "Uint256",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "data": [
+            {
+                "name": "from_",
+                "type": "felt"
+            },
+            {
+                "name": "to",
+                "type": "felt"
+            },
+            {
+                "name": "tokenId",
+                "type": "Uint256"
+            }
+        ],
+        "keys": [],
+        "name": "Transfer",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "from_",
+                "type": "felt"
+            },
+            {
+                "name": "tokenId",
+                "type": "Uint256"
+            }
+        ],
+        "keys": [],
+        "name": "Verified",
+        "type": "event"
+    }
+]
