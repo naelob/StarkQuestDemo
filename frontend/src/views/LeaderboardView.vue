@@ -11,6 +11,15 @@
               <div class="col-sm-6 d-none d-sm-block">
               </div>
           </div>
+          <div class="newsletter-form">
+              <form action="#">
+                  <div class="newsletter-form-grp">
+                      <i class="far fa-envelope"></i>
+                      <input type="email" placeholder="Enter your email...">
+                  </div>
+                  <button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>
+              </form>
+          </div>
           <div class="row">
             <div class="name">Player1</div><div class="score">430</div>
           </div>
